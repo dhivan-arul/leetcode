@@ -9,7 +9,6 @@ class Solution {
             else if(prices[i]-buy>profit){
                 profit=prices[i]-buy;
             }
-        }return profit;
-        
+        }return profit;   
     }
 }
