@@ -16,8 +16,8 @@ class Solution {
                 }
                 int num=digits[i]*100+digits[j]*10+digits[k];
                 set.add(num);
-                            }
-          }
+             }
+           }
         }
         return set.size();
     }
